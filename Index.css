@@ -1,0 +1,108 @@
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  header {
+    background: linear-gradient(to right, #ff4081, #f50057); /* Gradiente de colores */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 1.5rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Anime Sections */
+  .anime-section {
+    margin-bottom: 3rem;
+  }
+  
+  h2 {
+    color: #333;
+    border-bottom: 2px solid #ff4081; /* Línea debajo del título */
+    padding-bottom: 0.5rem;
+  }
+  
+  .anime-details {
+    display: flex; /* Usa Flexbox para detalles del anime */
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .anime-details img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* News and Videos Grids */
+  .content-wrapper {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .news-grid,
+  .videos-grid {
+    flex: 1; /* Para que ocupen el mismo espacio */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .news-item,
+  .video-item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-item img,
+  .video-item iframe {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+  }  
